@@ -10,7 +10,7 @@ This repository contains the code of the following STM32Cube packages:
 
 | Device series                                                             | Official repository | Version | Patch |
 | ------------------------------------------------------------------------- | ------------------- | :------ | :---- |
-| [STM32CubeF0](https://www.st.com/en/embedded-software/stm32cubef0.html)   |                 N/A |   1.9.0 |     - |
+| [STM32CubeF0](https://www.st.com/en/embedded-software/stm32cubef0.html)   |                 N/A |  1.10.0 |     - |
 | [STM32CubeF1](https://www.st.com/en/embedded-software/stm32cubef1.html)   |                 N/A |   1.7.0 | 1.7.1 |
 | [STM32CubeF2](https://www.st.com/en/embedded-software/stm32cubef2.html)   |                 N/A |   1.7.0 |     - |
 | [STM32CubeF3](https://www.st.com/en/embedded-software/stm32cubef3.html)   |                 N/A |  1.10.0 |     - |
