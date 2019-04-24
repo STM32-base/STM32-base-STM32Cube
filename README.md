@@ -19,7 +19,7 @@ This repository contains the code of the following STM32Cube packages:
 | [STM32CubeG0](https://www.st.com/en/embedded-software/stm32cubeg0.html)   |                 N/A |   1.2.0 |      - |
 | [STM32CubeH7](https://www.st.com/en/embedded-software/stm32cubeh7.html)   |                 N/A |   1.4.0 |      - |
 | [STM32CubeL0](https://www.st.com/en/embedded-software/stm32cubel0.html)   |                 N/A |  1.11.0 | 1.11.2 |
-| [STM32CubeL1](https://www.st.com/en/embedded-software/stm32cubel1.html)   |                 N/A |   1.8.0 |  1.8.1 |
+| [STM32CubeL1](https://www.st.com/en/embedded-software/stm32cubel1.html)   |                 N/A |   1.9.0 |        |
 | [STM32CubeL4](https://www.st.com/en/embedded-software/stm32cubel4.html)   |                 N/A |  1.13.0 |      - |
 | [STM32CubeMP1](https://www.st.com/en/embedded-software/stm32cubemp1.html) | [Github](https://github.com/STMicroelectronics/STM32CubeMP1) |   1.0.0 |      - |
 | [STM32CubeWB](https://www.st.com/en/embedded-software/stm32cubewb.html)   |                 N/A |   1.0.0 |      - |
