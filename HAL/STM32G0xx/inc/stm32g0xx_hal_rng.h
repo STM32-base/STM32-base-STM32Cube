@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#if defined(STM32G081xx)
+#if defined(STM32G081xx) || defined(STM32G041xx)
 /* Includes ------------------------------------------------------------------*/
 #include "stm32g0xx_hal_def.h"
 
@@ -76,7 +76,11 @@ typedef enum
 /** @defgroup RNG_Exported_Types_Group3 RNG Handle Structure definition
   * @{
   */
+#if (USE_HAL_RNG_REGISTER_CALLBACKS == 1)
 typedef struct  __RNG_HandleTypeDef
+#else
+typedef struct
+#endif
 {
   RNG_TypeDef                 *Instance;    /*!< Register base address   */
 

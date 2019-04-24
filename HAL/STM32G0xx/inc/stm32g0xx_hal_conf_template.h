@@ -61,7 +61,6 @@ extern "C" {
 #define HAL_TIM_MODULE_ENABLED
 #define HAL_UART_MODULE_ENABLED
 #define HAL_USART_MODULE_ENABLED
-#define HAL_UCPD_MODULE_ENABLED
 #define HAL_WWDG_MODULE_ENABLED
 
 /* ########################## Register Callbacks selection ############################## */
@@ -281,10 +280,6 @@ in voltage and temperature.*/
 #ifdef HAL_USART_MODULE_ENABLED
 #include "stm32g0xx_hal_usart.h"
 #endif /* HAL_USART_MODULE_ENABLED */
-
-#ifdef HAL_UCPD_MODULE_ENABLED
-#include "stm32g0xx_ll_ucpd.h"
-#endif /* HAL_UCPD_MODULE_ENABLED */
 
 #ifdef HAL_WWDG_MODULE_ENABLED
 #include "stm32g0xx_hal_wwdg.h"

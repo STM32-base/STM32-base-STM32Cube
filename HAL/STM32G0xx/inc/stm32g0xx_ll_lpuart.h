@@ -1380,6 +1380,10 @@ __STATIC_INLINE uint32_t LL_LPUART_GetBaudRate(USART_TypeDef *LPUARTx, uint32_t 
   {
     brrresult = (uint32_t)(((uint64_t)(periphclkpresc) * LPUART_LPUARTDIV_FREQ_MUL) / lpuartdiv);
   }
+  else
+  {
+    brrresult = 0x0UL;
+  }  
 
   return (brrresult);
 }
@@ -2508,7 +2512,7 @@ __STATIC_INLINE uint32_t LL_LPUART_DMA_GetRegAddr(USART_TypeDef *LPUARTx, uint32
   */
 __STATIC_INLINE uint8_t LL_LPUART_ReceiveData8(USART_TypeDef *LPUARTx)
 {
-  return (uint8_t)(READ_BIT(LPUARTx->RDR, USART_RDR_RDR));
+  return (uint8_t)(READ_BIT(LPUARTx->RDR, USART_RDR_RDR) & 0xFFU);
 }
 
 /**
