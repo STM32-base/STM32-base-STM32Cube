@@ -5,6 +5,7 @@ This repository contains the official CMSIS and HAL source files as they are pro
 This repository is part of the [STM32-base project](https://github.com/STM32-base). This repository is meant to be a simple way to get hold of the official CMSIS and HAL code without having to download the packages individually from STMicroelectronics. Because this repository contains code provided by STMicroelectronics, its licence deviates from the license used for all other STM32-base project repositories.
 
 ## STM32Cube packages
+## That is all STM32 boards
 
 This repository contains the code of the following STM32Cube packages:
 
